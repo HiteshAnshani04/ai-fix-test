@@ -1,6 +1,3 @@
-function subtract(a, b) {
-    // BUG: This should be a - b
-    return a + b;
-}
-
-module.exports = subtract;
+const a = 2;
+const b = 3;
+console.log(a + b);
