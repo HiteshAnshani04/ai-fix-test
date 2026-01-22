@@ -1,6 +1,7 @@
+// calculator.js
 function subtract(a, b) {
-    // BUG: This should be a - b
-    return a + b;
+  return a - b;
 }
 
-module.exports = subtract;
+const result = subtract(5, 3);
+console.log(result); // expected: 2, actual: 5 + 3
